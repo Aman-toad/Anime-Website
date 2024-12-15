@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign in Form</title>
+    <link rel="stylesheet" href="CSS/Sign-in.css">
+    
+</head>
+<body>
+    <div class="form js-form">
+        <form action="">
+            <h1>Sign in</h1>
+            <div class="input_box">
+                
+                <input class="js-username" type="text" placeholder="Username" required>
+            </div>
+
+            <div class="input_box">
+                <input class="js-password" type="password" placeholder="Password" required>
+            </div>
+
+            <div class="context">
+                <div class="remember">
+                    <input style="cursor: pointer;" type="checkbox">
+                    <p>Remember me</p>
+                </div>
+                <p><a href="#"><b>Forgot password?</b></a></p>
+            </div>
+
+            <div class="login">
+                <button type="submit" class="js-submit" onclick="login()">Login</button>
+            </div>
+
+            <div class="acc">
+                <p>Don't have an account?
+                    <a href="#" onclick="register()"><b>Register</b></a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <div class="welcome-container">
+        <h1 class="welcome-message"></h1>
+    </div>
+
+    <div class="register-form">
+        <h1>Become a Member of Ani<span>Sphere</span></h1>
+        <div class="input_box">
+            <input type="text" placeholder="Username" class="new-username" required>
+        </div>
+    
+        <div class="input_box ">
+            <input class="new-password" type="password" placeholder="Password">
+        </div>
+
+        <div class="input_box ">
+            <input type="password" placeholder="Confirm-password">
+        </div>
+
+        <div class="register">
+            <button type="submit" onclick="newMember()">Register</button>
+        </div>
+    </div>
+    
+    <script src="JAVASCRIPT/Sign.js"></script>
+</body>
+</html>

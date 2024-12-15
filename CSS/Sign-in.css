@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(zenitsu.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+.form{
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    padding:30px;
+    border-radius: 10px;
+    width: 460px;
+    height: 430px;
+    
+}
+
+h1{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.input_box{
+    margin-bottom:23px;
+    border-color: #fff;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius:40px;
+}
+
+.input_box input{
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius:40px;
+    padding: 18px;
+    border: none;
+    background: transparent;
+}
+
+.input_box input::placeholder{
+    color: #fff;
+}
+
+.context{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.remember{
+    display: flex;
+    margin-left: 5px;
+    
+}
+
+p{ 
+    margin-left: 5px;
+}
+
+a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 300 ;
+}
+
+.login{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    font-weight:600 ;
+}
+
+.acc{
+    margin-top: 25px;
+}
+
+button:active{
+    background-color: rgb(36, 167, 232);
+}
+
+.welcome-container,
+.register-form{
+    display: none;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    padding:30px;
+    border-radius: 10px;
+    width: 460px;
+    height: 130px;
+}
+
+.register-form{
+    height: 420px;
+}
+
+span{
+    color: rgb(255, 174, 69);
+}
+

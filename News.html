@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+
+    <link rel="stylesheet" href="CSS/News.css">
+</head>
+<body>
+    <div class="header-section">
+        <div class="left-header">
+            <h1><a href="index.html">Ani<span>Sphere</span></a></h1>
+        </div>
+
+        <div class="mid-header">
+            <div class="mid-base-header">
+                <ul>
+                    <li><a href="#latest-news">Latest News</a></li>
+                    <li><a href="#trending">Trending</a></li>
+                    <li><a href="#upcoming">Upcoming Shows</a></li>
+                    <li><a href="#events">Events</a></li>
+                </ul>
+            </div> 
+        </div>
+        
+        <div class="right-header">
+            <input type="search" placeholder="Search">
+        </div>
+    </div>
+
+    <div class="main-content">
+
+        <section id="latest-news">
+            
+            <h3>LATEST ANIME NEWS</h3>
+            <div class="latest-flex">
+
+              <div class="latest-cards">
+                <img src="Images/Anime-names/Beastars.jpeg">
+                <h3>Beastars: Final Season</h3>
+                <p>Beastars Season 3 begins streaming on Netflix from December 5, 2024. Don't miss the thrilling conclusion!</p>
+                <a href="#" class="read-more">Read More</a>
+              </div>
+
+              <div class="latest-cards">
+                <img src="Images/Anime-names/dandadan.jpeg">
+                <h3>DanDaDan Continues Strong</h3>
+                <p>The supernatural anime sensation remains a fan favorite. Catch the finale on December 19, 2024.</p>
+                <a href="#" class="read-more">Read More</a>
+              </div>
+
+              <div class="latest-cards">
+                <img src="Images/Anime-names/jjks2.jpeg">
+                <h3>Jujutsu Kaisen Season 2</h3>
+                <p>The 2024 Anime of the year goes to.....</p>
+                <a href="#" class="read-more">Read More</a>
+              </div>
+
+            </div>
+          </section>
+             
+        <section id="trending">
+            <h3>TRENDING NOW</h3>
+    
+            <div class="trend-grid">
+                <div class="trend-cards">
+                    <img src="Images/Anime-names/demon slayeer.png">
+                    <h4>Demon Slayer: Kimetsu no Yaiba - To the Hashira Training</h4>
+                </div>
+
+                <div class="trend-cards">
+                    <img src="Images/Anime-names/Bleach.jpg">
+                    <h4>BLEACH-Sennen-Kessenhen--Soukokutan/</h4>
+                </div>
+
+                <div class="trend-cards">
+                    <img src="Images/Anime-names/blue lock.png">
+                    <h4>Blue Lock VS U20 JAPAN</h4>
+                </div>
+
+                <div class="trend-cards">
+                    <img src="Images/Anime-names/chainsaw man.png">
+                    <h4>Chainsaw Man</h4>
+                </div>
+
+                <div class="trend-cards">
+                    <img src="Images/Anime-names/Sousou no Frieren.jpg">
+                    <h4>Sousou no Frieren</h4>
+                </div>
+
+                <div class="trend-cards">
+                    <img src="Images/Anime-names/fairy tail.jpg">
+                    <h4>Fairy Tail: 100 year quest</h4>
+                </div>
+
+                <div class="trend-cards">
+                    <img src="Images/Anime-names/jjk 2.jpg">
+                    <h4>Jujutsu Kaisen: season 2
+                    </h4>
+                </div>
+                
+                <div class="trend-cards">
+                    <img src="Images/Anime-names/naruto.png">
+                    <h4>NARUTO: Shippuuden</h4>
+                </div>
+
+                <div class="trend-cards">
+                    <img src="Images/Anime-names/one piece.jpg">
+                    <h4>One Piece</h4>
+                </div>
+
+                <div class="trend-cards">
+                    <img src="Images/Anime-names/Seirei Gensouki 2.jpg">
+                    <h4>Seirei Gensouki 2</h4>
+                </div>
+
+                <div class="trend-cards">
+                    <img class="arrow" src="icons/arraow icon.png">
+                    <h3>See More</h3>
+                </div>
+
+            </div>
+            
+        </section>
+    
+        <section id="upcoming">
+            <h3>UPCOMING SHOWS</h3>
+
+            <div class="upcoming-grid">
+
+                <div class="upcoming-cards">
+                    <img src="Images/Anime-names/one punch man 3.jpeg">
+                    <h4>One Punch Man 3</h4>
+                    <button class="js-add-btn-1" onclick="Added1();">Add to playlist</button>
+                </div>
+
+                <div class="upcoming-cards">
+                    <img src="Images/Anime-names/demon movie.jpeg">
+                    <h4>Kimetsu no Yaiba Movie Mugen Jou hen</h4>
+                    <button  class="js-add-btn-2" onclick="Added2();" >Add to playlist</button>
+                </div>
+
+                <div class="upcoming-cards">
+                    <img src="Images/Anime-names/spyxfamily3.jpeg">
+                    <h4>Spy x Family Season 3</h4>
+                    <button  class="js-add-btn-3" onclick="Added3();">Add to playlist</button>
+                </div>
+
+                <div class="upcoming-cards">
+                    <img src="Images/Anime-names/chainsaw-movie.jpeg">
+                    <h4>Chainsaw Man Movie Reze hen</h4>
+                    <button  class="js-add-btn-4" onclick="Added4();"> Add to playlist</button>
+                </div>
+
+                <div class="upcoming-cards">
+                    <img src="Images/Anime-names/Jigokuraku.png">
+                    <h4>Jigokuraku 2nd Season</h4>
+                    <button  class="js-add-btn-5" onclick="Added5();">Add to playlist</button>
+                </div>
+
+                <div class="upcoming-cards">
+                    <img src="Images/Anime-names/jjk-movie.jpeg">
+                    <h4>Jujutsu Kaisen Shimetsu Kaiyuu</h4>
+                    <button  class="js-add-btn-6" onclick="Added6();">Add to playlist</button>
+                </div>
+
+            </div>
+            
+        </section>
+    
+        <section id="events">
+            <h3>EVENTS</h3>
+
+            <header>Upcoming Anime Events</header>
+            <div class="event-cards">
+                <div class="card-front">
+                    <img src="Images/Anime-names/kolkata.jpg">
+                    <h3>Kolkata Comic Con 2025</h3>
+                    <div class="details">
+                        <p class="discription">Comicon India is the country's largest pop-culture celebration. It is the best weekend of the year, celebrated with celebrity guests, awesome merchandise, mind-blowing experiences, and the world's best cosplayers.</p>
+                        <div class="timing">
+                            <p>When: February 22- 23, 2025</p>
+                            <br>
+                        <p>Event Name: Biswa Bangla Mela Prangan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-front">
+                    <img src="Images/Anime-names/holiday.png">
+                    <h3>Holiday Matsuri 2024</h3>
+                    <div class="details">
+                        <p class="discription"> A festive anime, gaming, and cosplay convention with a holiday twist. Activities include cosplay contests, gaming tournaments, panels, and a special Winter Cosplay Championship. 
+                        </p>
+                        <div class="timing">
+                            <p>When: December 20–22, 2024</p>
+                            <br>
+                        <p>where: Orange County Convention Center, Hyatt Regency Orlando, Orlando, FL, USA</p>
+                        </div>
+                    </div>
+                </div>               
+                
+                <div class="card-front">
+                    <img src="Images/Anime-names/Anime Frontier 2024.png">
+                    <h3>Anime Frontier 2024</h3>
+                    <div class="details">
+                        <p class="discription">A vibrant gathering of anime fans featuring exclusive screenings, panels with industry guests, merchandise from Japan, and interactive experiences​
+                        </p>
+                        <div class="timing">
+                            <p>When:  December 13–15, 2024</p>
+                            <br>
+                        <p>where: Fort Worth Convention Center, Fort Worth, TX, USA</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>            
+        </section>
+    </div>
+
+    <script src="JAVASCRIPT/news.js"></script>
+    
+</body>
+</html>

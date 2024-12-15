@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Nunito", sans-serif;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        padding: 20px;
+    }
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(dark-face-of.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    align-content: center;
+    margin-top: 20px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.logo:hover{
+    transform: scale(1.1)
+}
+
+.logo h1{
+    font-size: 39px;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+span{
+    color:  rgb(255, 174, 69);
+}
+
+h1{    
+    display: block;
+}
+
+.navbars {
+    display: flex;
+    width: 600px;
+    gap: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.navbars a {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    transition: all 0.5s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.navbars a:hover,
+.navbars a:active{
+    transform: scale(1.1);
+    color: rgb(234, 147, 80);
+    border-bottom: 3px solid rgb(195, 99, 52);
+}
+
+.active{
+    border-bottom: 3px solid rgb(195, 99, 52);
+}
+
+li{   
+    list-style: none;
+}
+.play{
+    margin-right: 20px;
+    display: inline-block;   
+}
+
+.play-button{
+    color: black;
+    margin-top: 10px;
+    width: 85px;
+    height: 40px;
+    background: white;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.play-button a{
+    font-family: fantasy;
+    color: #000;
+    font-size: 22px;
+}
+
+.play-button:hover{
+    color: #111;
+    background: rgb(248, 148, 18);
+    box-shadow: 0 0 18px rgb(248, 148, 18);
+    transform: scale(1.1);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 3fr 1.3fr;
+    padding-top: 230px;
+}
+
+.content .main-text {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+
+.recommend{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.infinity{
+    width: 400px;
+    height: 250px;
+    padding-right: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(195, 99, 52);
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.fade-out{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+video{
+    width: 400px;
+    height: 240px;
+    margin-right: 12px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(195, 99, 52);
+    transition: 0.2s;
+    cursor: pointer;
+    position: absolute;
+}
+
+.infinity:hover{
+    transform: scale(1.05);
+}
+
+.big-welcome{
+    margin-bottom: 25px;
+}
+
+.Welcome{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 40px;
+}
+.start{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 0 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.Welcome,
+.start{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 25px;
+    width: 700px;
+}
+
+.watch-btn{
+    display: flex;
+    justify-content: center;
+}
+.watch{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: x-large;
+    font-family: fantasy;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+body{
+    font-family: Noto sans JP , sans-serif;
+    letter-spacing: 1.2px;
+    word-spacing: 2px;
+    background-image: url(Backgrounds/blossoms-cherry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about-us{
+    position: relative;
+    color: white;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    height: 729px;
+}
+
+.about-us h1{
+    text-align: center;
+    letter-spacing: 5px; 
+    font-size: 40px;
+    color: rgb(25, 133, 221);
+    margin-bottom: 10px;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.6)
+}
+
+.about-us h1::after{
+    content: "";
+    height: 5px;
+    width: 250px;
+    background-color: rgb(25, 133, 221);
+    display: block;
+    margin: auto;
+}
+
+.about-us p{
+    font-size: large;
+    width: 1000px;
+}
+
+.wrapper{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;    
+}
+
+.content h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content h2 a{
+    color: white;
+}
+
+span{
+    color: rgb(255, 174, 69);
+}
+
+.content p{
+    font-size: large;
+}
+
+.content ul{
+    color: white;
+    list-style: disc;
+}
+
+.join,
+.creator{
+    transition: 0.5s;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.join{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.creator-btn{
+    display: flex;
+    justify-content: center;
+}
+.creator{
+    width: 180px;
+    height: 50px;
+    border-radius: 2px ;
+}
+
+.creator a{
+    color: black;
+}
+
+.join:hover,
+.creator:hover{
+    transform: scale(1.09);
+    background-color: rgb(255, 170, 11);
+    box-shadow: 0 0 20px rgb(246, 176, 46);
+    color: white;
+}
+
+.facebook,
+.instagram,
+.youtube{
+    background-color: aliceblue;
+    width: 20px;
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+i{
+    width: 20px;
+}
+
+

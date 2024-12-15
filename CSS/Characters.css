@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #2a2828;
+}
+header{
+    margin: 10px;
+}
+
+.characters-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-head h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    font-family: "parmanent marker", cursive;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+span{
+    color:  rgb(255, 174, 69);
+    font-family: "parmanent marker", cursive;
+}
+
+.left-head a{
+    color: white;
+}
+
+.left-head h1:hover{
+    transform: scale(1.07);
+}
+
+.right-head{
+    margin: 10px 20px 0 0;
+    max-width: 850px;
+    display: flex;
+}
+
+.right-head input{
+    font-weight: 700;
+    font-size: larger;
+    min-width: 450px;
+    height: 45px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    padding-left: 10px;
+}
+
+.search-button{
+    background: transparent;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+.right-head img{
+    background-color: rgb(42, 170, 245);
+    height: 45px;
+    border-radius: 0 20px 20px 0;
+}
+
+.characters {
+    text-align: center;
+    padding: 50px;
+    background-color: #181818;
+}
+  
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+}
+  
+.characters-card {
+    width: 401px;
+    height: 595px;
+    background: #2a2828;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-in-out;
+    transition: height .5s ease-in-out;
+    cursor: pointer;
+}
+  
+.characters-card:hover {
+    transform: scale(1.03);
+    height: 930px;
+}
+  
+.characters-card img {
+    width: 350px;
+    height: 550px;
+}
+
+.characters-card img:hover{
+    box-shadow: 0 0 20px rgb(255, 192, 74);
+}
+  
+.characters-card h3 {
+    color: white;
+    margin: 10px 0;
+    font-size: 20px;
+}
+  
+.characters-card p {
+    color: #e4dadae0;
+}
+
+.see{
+    margin-top: 200px;
+    width: 150px;
+    height: 55px;
+}
+
+.see:hover{
+    display: block;
+    height: 55px;
+    background-color:rgb(42, 170, 245);
+}
+  
+.character-description{
+    margin: 10px 25px 10px 25px;
+}
+
+.character-stats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.character-stats li {
+    color: rgb(237, 223, 205);
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.hidden{
+    display: none;
+}

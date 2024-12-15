@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(anime-moon-landscape.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.box{
+    backdrop-filter: blur(1px);
+    background: transparent;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto  ;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgb(126, 126, 126);
+    transition: 0.3s;
+}
+
+.box:hover{
+    box-shadow: 0 0 20px rgb(0, 176, 235);
+}
+
+
+
+.box h1{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 0 0 10px black;
+    font-weight: 600;
+    border-bottom: 1px solid #424040;
+    padding-bottom: 30px;
+}
+
+.question{
+padding: 20px 0;
+}
+
+.question p{
+    font-size: 20px;
+    color: #24292ef5;
+    font-weight: 700;
+    padding: 10px;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    height: 30px;
+    margin: 10px auto 10px 20px;
+}
+
+label{
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+label:hover{
+    color: #002aff;
+}
+
+button{
+    background: #fff;
+    color: #24292ef5;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    background: #00b5ed;
+    color: white;
+}
+
+button:active{
+    background: #00b5ed;
+    color: white;
+}
+
+.result,
+.response{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
