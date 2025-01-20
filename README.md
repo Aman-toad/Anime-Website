@@ -27,10 +27,10 @@ This website is a fan-based anime platform that allows users to explore various 
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/anime-website.git
+   git clone https://github.com/Aman-toad/anime-website.git
 2. open the index.html file in the browser
 
 ## LIVE DEMO LINK
-check out the live version : [](https://aman-toad.github.io/Anime-Website/)
+check out the live version : [website link](https://aman-toad.github.io/Anime-Website/)
 
 Would you like to modify anything before adding it to your repository?
